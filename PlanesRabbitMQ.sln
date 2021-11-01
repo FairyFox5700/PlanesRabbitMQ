@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanesRabbitMQ.BL.Models", "PlanesRabbitMQ.BL.Models\PlanesRabbitMQ.BL.Models.csproj", "{EE94FD79-18BE-4204-8270-9F89CD697C6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanesRabbitMQ.WebApi.Consumer", "PlanesRabbitMQ.WebApi.Consumer\PlanesRabbitMQ.WebApi.Consumer.csproj", "{A0713A98-DAFA-4723-8053-49B3AC96F4F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanesRabbitMQ.WebApi.Publisher", "PlanesRabbitMQ.WebApi.Publisher\PlanesRabbitMQ.WebApi.Publisher.csproj", "{ACCABC74-ACDE-4601-95AD-6F93B09D0839}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE94FD79-18BE-4204-8270-9F89CD697C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE94FD79-18BE-4204-8270-9F89CD697C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE94FD79-18BE-4204-8270-9F89CD697C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE94FD79-18BE-4204-8270-9F89CD697C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0713A98-DAFA-4723-8053-49B3AC96F4F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0713A98-DAFA-4723-8053-49B3AC96F4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0713A98-DAFA-4723-8053-49B3AC96F4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0713A98-DAFA-4723-8053-49B3AC96F4F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCABC74-ACDE-4601-95AD-6F93B09D0839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCABC74-ACDE-4601-95AD-6F93B09D0839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCABC74-ACDE-4601-95AD-6F93B09D0839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCABC74-ACDE-4601-95AD-6F93B09D0839}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
