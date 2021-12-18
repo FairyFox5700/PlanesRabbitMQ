@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Liquid Studio 2021 (https://www.liquid-technologies.com)-->
+<xsd:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"
+            targetNamespace="http://www.mydomain/planes"
+            attributeFormDefault="unqualified" 
+            elementFormDefault="qualified" vc:minVersion="1.1" 
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="planes">
+        <xsd:complexType>
+            <xsd:choice>
+                <xsd:element name="plane" maxOccurs="unbounded" minOccurs="1">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="model">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                        <xsd:pattern value="[A-Z]{2,4}-[1-9]{2,4}" />
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="origin" type="xsd:string" />
+                            <xsd:element name="chars">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="numberOfSeats">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:positiveInteger">
+                                                    <xsd:minInclusive value="1" />
+                                                    <xsd:maxInclusive value="2" />
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+                                        <xsd:element name="hasAmmunition" type="xsd:boolean" />
+                                        <xsd:element name="hasRadar" type="xsd:boolean"/>
+                                        <xsd:element name="characteristics" >
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="rocketsCount">
+                                                        <xsd:simpleType>
+                                                            <xsd:restriction base="xsd:integer">
+                                                                <xsd:minInclusive value="0" />
+                                                                <xsd:maxInclusive value="10" />
+                                                            </xsd:restriction>
+                                                        </xsd:simpleType>
+                                                    </xsd:element>
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                        <xsd:element name="type">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:string">
+                                                    <xsd:enumeration value="support" />
+                                                    <xsd:enumeration value="convoy" />
+                                                    <xsd:enumeration value="destroyer" />
+                                                    <xsd:enumeration value="interceptor" />
+                                                    <xsd:enumeration value="scout" />
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="parameters">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="length">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:double">
+                                                    <xsd:minInclusive value = "0.0"/>
+                                                    <xsd:maxInclusive value = "10000000.0"/>
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+                                        <xsd:element name="width">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:double">
+                                                    <xsd:minInclusive value = "0.0"/>
+                                                    <xsd:maxInclusive value = "10000000.0"/>
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+                                        <xsd:element name="height">
+                                            <xsd:simpleType>
+                                                <xsd:restriction base="xsd:double">
+                                                    <xsd:minInclusive value = "0.0"/>
+                                                    <xsd:maxInclusive value = "10000000.0"/>
+                                                </xsd:restriction>
+                                            </xsd:simpleType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="price" >
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:double">
+                                        <xsd:minInclusive value = "0.0"/>
+                                        <xsd:maxInclusive value = "10000000.0"/>
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="id" type="xsd:int" use="optional" />
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:choice>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

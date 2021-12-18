@@ -1,6 +1,6 @@
 using System.Xml.Serialization;
 
-namespace PlanesRabbitMQ.BL.Models
+namespace PlanesRabbitMQ.DAL.Entities
 {
     public enum PlaneType
     {

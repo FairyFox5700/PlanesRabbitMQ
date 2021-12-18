@@ -1,4 +1,5 @@
 using System.Xml.Serialization;
+using PlanesRabbitMQ.DAL.Entities;
 
 namespace PlanesRabbitMQ.BL.Models
 {

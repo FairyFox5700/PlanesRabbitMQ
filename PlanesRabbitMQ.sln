@@ -6,6 +6,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanesRabbitMQ.WebApi.Consu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanesRabbitMQ.WebApi.Publisher", "PlanesRabbitMQ.WebApi.Publisher\PlanesRabbitMQ.WebApi.Publisher.csproj", "{ACCABC74-ACDE-4601-95AD-6F93B09D0839}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanesRabbitMQ.DAL", "PlanesRabbitMQ.DAL\PlanesRabbitMQ.DAL.csproj", "{6B7793A8-B418-4D1B-B749-7BDFB42E5CD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanesRabbitMQ.Contracts", "PlanesRabbitMQ.Contracts\PlanesRabbitMQ.Contracts.csproj", "{90D3A9F2-B77A-4358-A25B-9DFB98576548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanesRabbitMQ.BL.Services", "PlanesRabbitMQ.BL.Services\PlanesRabbitMQ.BL.Services.csproj", "{EE60BC8A-4E8F-4DB8-9935-BB2823FE4C05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,17 @@ Global
 		{ACCABC74-ACDE-4601-95AD-6F93B09D0839}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACCABC74-ACDE-4601-95AD-6F93B09D0839}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACCABC74-ACDE-4601-95AD-6F93B09D0839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B7793A8-B418-4D1B-B749-7BDFB42E5CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B7793A8-B418-4D1B-B749-7BDFB42E5CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B7793A8-B418-4D1B-B749-7BDFB42E5CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B7793A8-B418-4D1B-B749-7BDFB42E5CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D3A9F2-B77A-4358-A25B-9DFB98576548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D3A9F2-B77A-4358-A25B-9DFB98576548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D3A9F2-B77A-4358-A25B-9DFB98576548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D3A9F2-B77A-4358-A25B-9DFB98576548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE60BC8A-4E8F-4DB8-9935-BB2823FE4C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE60BC8A-4E8F-4DB8-9935-BB2823FE4C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE60BC8A-4E8F-4DB8-9935-BB2823FE4C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE60BC8A-4E8F-4DB8-9935-BB2823FE4C05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

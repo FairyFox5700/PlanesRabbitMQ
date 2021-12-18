@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<planes xmlns="http://www.mydomain/planes">
+  <plane id="5551">
+    <model>QS-3594</model>
+    <origin>Kiev</origin>
+    <chars>
+      <numberOfSeats>1</numberOfSeats>
+      <hasAmmunition>true</hasAmmunition>
+      <hasRadar>1</hasRadar>
+      <characteristics>
+        <rocketsCount>8</rocketsCount>
+      </characteristics>
+        <type>convoy</type>
+    </chars>
+    <parameters>
+      <length>8135400.2349058</length>
+      <width>3901070.2349058</width>
+      <height>9059090.2349058</height>
+    </parameters>
+    <price>2700070.2349058</price>
+  </plane>
+<plane id="1555">
+    <model>WE-3594</model>
+    <origin>Lviv</origin>
+    <chars>
+      <numberOfSeats>1</numberOfSeats>
+      <hasAmmunition>true</hasAmmunition>
+      <hasRadar>0</hasRadar>
+      <characteristics>
+        <rocketsCount>8</rocketsCount>
+      </characteristics>
+        <type>support</type>
+    </chars>
+    <parameters>
+      <length>435400.2349058</length>
+      <width>3901270.2349058</width>
+      <height>913590.23490</height>
+    </parameters>
+    <price>2700070.2349058</price>
+  </plane>
+</planes>
