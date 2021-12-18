@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MassTransit" Version="7.2.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PlanesRabbitMQ.BL.Models\PlanesRabbitMQ.BL.Models.csproj" />
+      <ProjectReference Include="..\PlanesRabbitMQ.Contracts\PlanesRabbitMQ.Contracts.csproj" />
+      <ProjectReference Include="..\PlanesRabbitMQ.DAL\PlanesRabbitMQ.DAL.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\planes.xsd" />
+      <None Remove="Resources\planesxml.xml" />
+    </ItemGroup>
+
+</Project>
